@@ -14,11 +14,11 @@ if _name_== '_main_':
     student_num = 1
 
     while(condition):
-        student_info = input("Enter student information for student #{} in the following format (Name Age Contact_number E-mail_ID): ".format(student_num)
+        student_info = input("Enter student information for student #{} in the following format (Name Age Contact_number E-mail_ID: ".format(student_num))
         
         student_info_list = student_input.split(' ')
         
-        print("\nThe entered information is-n\Name: {}n\Age: {}\nContact_Number: {}\nEmail_ID: {}".format((student_info_list[0], student_info_list[1], student_info_list[2], student_info_list[3]))
+        print("\nThe entered information is -n\Name: {}n\Age: {}\nContact_Number: {}\nEmail_ID: {}".format((student_info_list[0], student_info_list[1], student_info_list[2], student_info_list[3]))
 
         choice_check = input("Is the entered information correct? (yes/no): ")
 
@@ -34,4 +34,4 @@ if _name_== '_main_':
              elif condition_check == "no":
                   conditin = False
        elif choice_check == "no":
-            print(\nPlease re-enter the values!")
+            print("\nPlease re-enter the values!")
